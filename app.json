@@ -46,9 +46,9 @@
             "value": ""
         },
         "SUPPORT": {
-            "description": "Fill with your support group username without @",
+            "description": "Fill with your support group username without AND DONT CHANGE IT @",
             "required": true,
-            "value": "M8N_SUPPORT"
+            "value": "TEAMLUNA"
         },
         "UPDATE": {
             "description": "Fill with your Update Channel username without @",
@@ -66,7 +66,7 @@
             "value": ""
         },
         "START_PIC": {
-            "description": "Enter the telegraph link of an image or contact @M8N_SUPPORT",
+            "description": "Enter the telegraph link of an image or contact @teamluna",
             "value": "https://telegra.ph/file/e3bbcfcf96e85553aff4a.jpg",
             "required": true
         },
@@ -83,7 +83,7 @@
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
-            "value": "5058236569"
+            "value": "1930954213"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
