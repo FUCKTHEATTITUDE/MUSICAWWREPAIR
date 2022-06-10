@@ -15,10 +15,11 @@ from m8n.config import BOT_NAME
 async def cbhome(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""Hello [👋]({START_PIC}) My name is **{BOT_NAME}**
+        I'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.
 
-I'm most complete voice chat music player for playing high quality and unbreakable music in your groups voice chat with some useful features.
+Feel free to add me to your groups.
 
-Use inline buttons given below to know more about me !!""",
+""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -68,23 +69,18 @@ Check out all the commands given below by Click on the given inline buttons !!""
 async def all_set(_, query: CallbackQuery):
     await query.answer("Everyone menu")
     await query.edit_message_text(
-    f"""• /play (song name) or (YT link)
-- plays the song in voice chat of your group 
+    f"""• /play - Bot will start playing your given query on voice chat or Stream live links on voice chats.
 
-• /song (song name) or (YT link)
-- Downloads song in audio File 
+• /song [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
 
 • /tgm or /telegraph
 - generate the link of given media
-
-• /info 
-- show all the information about a given user
 
 • /search or /yt
 - search link of the given song
 
 • /ping
-- Shows the ping message
+- Ping the Bot and check Ram, Cpu etc stats of Bot.
 
 • @botusername <query> 
 - Get youtube url by inline mode""",
@@ -183,9 +179,8 @@ Click on the given inline buttons to know all the information about the Bot !!""
                 ],[
                     InlineKeyboardButton("👤 Owner", url=f"https://t.me/{OWNER_USERNAME}"),
                     InlineKeyboardButton("🎸 Assistant", url=f"https://t.me/{ASSUSERNAME}")
-                ],[
-                    InlineKeyboardButton("🤖 Source Code", url="https://github.com/UnknownMortal/M8N-Music-Bot")
-                ],[
+                ],       
+                [
                     InlineKeyboardButton("⬅️ Back", callback_data="cbhome")
                 ],
             ]
