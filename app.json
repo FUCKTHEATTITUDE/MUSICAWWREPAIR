@@ -1,9 +1,9 @@
 {
     "name": "M8N Music Bot",
     "description": "Powerful telegram's group voice chat music player. Run on python3 !!",
-    "logo": "https://telegra.ph/file/22265bda0d1d8c2b1978a.jpg",
+    "logo": "https://telegra.ph/file/2ffd6af2a5294c4e96e59.png",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/UnknownMortal/M8N-Music-Bot",
+    "repository": "https://github.com/FUCKTHEATTITUDE/MUSICAWWREPAIR.git",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
