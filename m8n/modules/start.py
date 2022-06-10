@@ -17,10 +17,9 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_PIC}",
         caption=f"""Hello 👋 My name is **{BOT_NAME}**
+        I'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.
 
-I'm most complete voice chat music player for playing high quality and unbreakable music in your groups voice chat with some useful features.
-
-Use inline buttons given below to know more about me !!""",
+Feel free to add me to your groups.""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
